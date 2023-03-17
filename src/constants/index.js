@@ -17,10 +17,7 @@ import {
   united,
   android,
   phinma,
-  barangay,
-  barangayapps,
-  attendance,
-  trancycle,
+
 } from "../assets";
 
 import {
@@ -38,6 +35,21 @@ import {
   n12,
   n13
 } from "../assets/gallery"
+import{
+  barangay,
+  barangayapps,
+  attendance,
+  trancycle,
+  employment,
+  herbal,
+  epython,
+  rechapcha,
+  motion,
+  hack,
+  lrmc,
+  unified,
+  attendancekid,
+} from "../assets/projects"
 
 export const navLinks = [
   {
@@ -279,7 +291,7 @@ const projects = [
       },
     ],
     image: attendance,
-    source_code_link: "https://github.com/Arjaydelospobres/attendance-system",
+    // source_code_link: "",
   },
   {
     name: "Trancycle",
@@ -300,6 +312,187 @@ const projects = [
     ],
     image: trancycle,
     source_code_link: "https://github.com/Arjaydelospobres/transcycle",
+  },
+  {
+    name: "Employment System",
+    description: "This project was created during my class in Advance Wed Dev(Sir Mikel Legaspi) ",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootsrap CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: employment,
+    source_code_link: "https://github.com/Arjaydelospobres/Employment",
+  },
+  {
+    name: "Herbal Plant Apps",
+    description: "This project was created during my class in Application dev and emerging technology(Sir John Leabres) ",
+    tags: [
+      {
+        name: "Android Studio",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Java",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+    ],
+    image: herbal,
+    source_code_link: "https://github.com/Arjaydelospobres/herbalism",
+  },
+  {
+    name: "Employee Payroll Management System",
+    description: "This project was created during my class in Integrative Programming and Technology(Sir John Leabres) ",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tkinter",
+        color: "green-text-gradient",
+      },
+    ],
+    image: epython,
+    source_code_link: "https://github.com/Arjaydelospobres/Python-employee",
+  },
+  {
+    name: "Rechapcha",
+    description: "This project was created during my class in Information Assurance and security(Sir John Leabres) ",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Rechapcha api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Android Studio",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: rechapcha,
+    source_code_link: "https://github.com/Arjaydelospobres/Rechaptcha",
+  },
+  {
+    name: "Motion Detection Python",
+    description: "This project was created during my class in Intellegence System(Sir John Leabres) ",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+     
+    ],
+    image: motion,
+    source_code_link: "https://github.com/Arjaydelospobres/Motion-detection",
+  },
+  {
+    name: "Crypto (Hackaton PSITE)",
+    description: "This project was created during the competition on Hackaton PSITE",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootsrap CSS",
+        color: "pink-text-gradient",
+      },
+     
+    ],
+    image: hack,
+    source_code_link: "https://github.com/RAITE-2022-Hackathon/RAITE-22_PAU_Team2",
+  },
+  {
+    name: "LRMC",
+    description: "This project was created during my OJT in Unted Neon my role in this project back end using firebase",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react-bootstrap",
+        color: "pink-text-gradient",
+      },
+     
+    ],
+    image: lrmc,
+    // source_code_link: "",
+  },
+  {
+    name: "Unified",
+    description: "This project was created during my OJT in Unted Neon my role in this project is map design and dashboard",
+    tags: [
+      {
+        name: "Code ignitor",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "laravel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "pink-text-gradient",
+      },
+     
+    ],
+    image: unified,
+    // source_code_link: "asdasdsad",
+  },
+  {
+    name: "Attendance Kid",
+    description: "This project was created during my OJT in Unted Neon my role in this project is camera implementation and qr code generator",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react-bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Material UI",
+        color: "green-text-gradient",
+      },
+     
+    ],
+    image: attendancekid,
+    // source_code_link: "asdasd",
   },
 ];
 

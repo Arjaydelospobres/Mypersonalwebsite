@@ -23,10 +23,8 @@ import android from "./tech/androidstudio.png";
 import united from "./company/united.jpg";
 import phinma from "./company/phinma.jpg";
 
-import barangay from "./barangay.jpg";
-import barangayapps from "./barangayapps.jpg";
-import attendance from "./attendance.jpg";
-import trancycle from "./trancycle.jpeg";
+
+
 // import lrmc from "./lrmc.jpg";
 
 export {
@@ -45,11 +43,6 @@ export {
   python,
   united,
   phinma,
-  barangay,
-  // lrmc,
-  barangayapps,
-  attendance,
-  trancycle,
   javascript,
   mysql,
   nodejs,
