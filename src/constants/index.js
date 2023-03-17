@@ -23,6 +23,22 @@ import {
   trancycle,
 } from "../assets";
 
+import {
+  n1,
+  n2,
+  n3,
+  n4,
+  n5,
+  n6,
+  n7,
+  n8,
+  n9,
+  n10,
+  n11,
+  n12,
+  n13
+} from "../assets/gallery"
+
 export const navLinks = [
   {
     id: "about",
@@ -139,29 +155,60 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "Fast and efficient. Shows initiative at work. he knows task very well",
-    name: "Maam Nics",
-    designation: "OP",
-    company: "Phinma Araullo University",
-    // image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial: "Phinma Au Op Christmass party (Dec. 20, 2022)",
+    image: n1
   },
-  // {
-  //   testimonial:
-  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
-  //   name: "Chris Brown",
-  //   designation: "COO",
-  //   company: "DEF Corp",
-  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
-  // },
-  // {
-  //   testimonial:
-  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-  //   name: "Lisa Wang",
-  //   designation: "CTO",
-  //   company: "456 Enterprises",
-  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
-  // },
+  {
+    testimonial: "Phinma Au OP",
+    image: n2
+  },
+  {
+    testimonial: "Phinma Au OP(data encoder)",
+    image: n3
+  },
+  {
+    testimonial: "Phinma Au OP(Before Christmass Party)",
+    image: n4
+  },
+  {
+    testimonial: "United Neon First Day",
+    image: n5
+  },
+  {
+    testimonial: "United Neon First project",
+    image: n6
+  },
+  {
+    testimonial: "United Neon First project",
+    image: n7
+  },
+  {
+    testimonial: "Phinma Au event with my co-intern",
+    image: n8
+  },
+  {
+    testimonial: "United Neon (Retailgate Feb 14 celebration)",
+    image: n9
+  },
+  {
+    testimonial: "Phinma Au OP Christmass party Dance training",
+    image: n10
+  },
+  {
+    testimonial: "Ratailgate (AR testing)",
+    image: n11
+  },
+  {
+    testimonial: "Ratailgate Meeting with the project",
+    image: n12
+  },
+ 
+  {
+    testimonial: "Ratailgate co-intern",
+    image: n13
+  },
+ 
+ 
 ];
 
 const projects = [
