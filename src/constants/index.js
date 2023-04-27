@@ -17,7 +17,6 @@ import {
   united,
   android,
   phinma,
-
 } from "../assets";
 
 import {
@@ -33,9 +32,9 @@ import {
   n10,
   n11,
   n12,
-  n13
-} from "../assets/gallery"
-import{
+  n13,
+} from "../assets/gallery";
+import {
   barangay,
   barangayapps,
   attendance,
@@ -49,7 +48,7 @@ import{
   lrmc,
   unified,
   attendancekid,
-} from "../assets/projects"
+} from "../assets/projects";
 
 export const navLinks = [
   {
@@ -168,59 +167,57 @@ const experiences = [
 const testimonials = [
   {
     testimonial: "Phinma Au Op Christmass party (Dec. 20, 2022)",
-    image: n1
+    image: n1,
   },
   {
     testimonial: "Phinma Au OP",
-    image: n2
+    image: n2,
   },
   {
     testimonial: "Phinma Au OP(data encoder)",
-    image: n3
+    image: n3,
   },
   {
     testimonial: "Phinma Au OP(Before Christmass Party)",
-    image: n4
+    image: n4,
   },
   {
     testimonial: "United Neon First Day",
-    image: n5
+    image: n5,
   },
   {
     testimonial: "United Neon First project",
-    image: n6
+    image: n6,
   },
   {
     testimonial: "United Neon First project",
-    image: n7
+    image: n7,
   },
   {
     testimonial: "Phinma Au event with my co-intern",
-    image: n8
+    image: n8,
   },
   {
     testimonial: "United Neon (Retailgate Feb 14 celebration)",
-    image: n9
+    image: n9,
   },
   {
     testimonial: "Phinma Au OP Christmass party Dance training",
-    image: n10
+    image: n10,
   },
   {
     testimonial: "Ratailgate (AR testing)",
-    image: n11
+    image: n11,
   },
   {
     testimonial: "Ratailgate Meeting with the project",
-    image: n12
+    image: n12,
   },
- 
+
   {
     testimonial: "Ratailgate co-intern",
-    image: n13
+    image: n13,
   },
- 
- 
 ];
 
 const projects = [
@@ -315,7 +312,8 @@ const projects = [
   },
   {
     name: "Employment System",
-    description: "This project was created during my class in Advance Wed Dev(Sir Mikel Legaspi) ",
+    description:
+      "This project was created during my class in Advance Wed Dev(Sir Mikel Legaspi) ",
     tags: [
       {
         name: "HTML",
@@ -335,7 +333,8 @@ const projects = [
   },
   {
     name: "Herbal Plant Apps",
-    description: "This project was created during my class in Application dev and emerging technology(Sir John Leabres) ",
+    description:
+      "This project was created during my class in Application dev and emerging technology(Sir John Leabres) ",
     tags: [
       {
         name: "Android Studio",
@@ -359,7 +358,8 @@ const projects = [
   },
   {
     name: "Employee Payroll Management System",
-    description: "This project was created during my class in Integrative Programming and Technology(Sir John Leabres) ",
+    description:
+      "This project was created during my class in Integrative Programming and Technology(Sir John Leabres) ",
     tags: [
       {
         name: "Python",
@@ -375,7 +375,8 @@ const projects = [
   },
   {
     name: "Rechapcha",
-    description: "This project was created during my class in Information Assurance and security(Sir John Leabres) ",
+    description:
+      "This project was created during my class in Information Assurance and security(Sir John Leabres) ",
     tags: [
       {
         name: "Java",
@@ -395,20 +396,21 @@ const projects = [
   },
   {
     name: "Motion Detection Python",
-    description: "This project was created during my class in Intellegence System(Sir John Leabres) ",
+    description:
+      "This project was created during my class in Intellegence System(Sir John Leabres) ",
     tags: [
       {
         name: "Python",
         color: "blue-text-gradient",
       },
-     
     ],
     image: motion,
     source_code_link: "https://github.com/Arjaydelospobres/Motion-detection",
   },
   {
     name: "Crypto (Hackaton PSITE)",
-    description: "This project was created during the competition on Hackaton PSITE",
+    description:
+      "This project was created during the competition on Hackaton PSITE",
     tags: [
       {
         name: "HTML",
@@ -422,78 +424,78 @@ const projects = [
         name: "Bootsrap CSS",
         color: "pink-text-gradient",
       },
-     
     ],
     image: hack,
-    source_code_link: "https://github.com/RAITE-2022-Hackathon/RAITE-22_PAU_Team2",
+    source_code_link:
+      "https://github.com/RAITE-2022-Hackathon/RAITE-22_PAU_Team2",
   },
-  {
-    name: "LRMC",
-    description: "This project was created during my OJT in Unted Neon my role in this project back end using firebase",
-    tags: [
-      {
-        name: "ReactJS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "API",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react-bootstrap",
-        color: "pink-text-gradient",
-      },
-     
-    ],
-    image: lrmc,
-    // source_code_link: "",
-  },
-  {
-    name: "Unified",
-    description: "This project was created during my OJT in Unted Neon my role in this project is map design and dashboard",
-    tags: [
-      {
-        name: "Code ignitor",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "laravel",
-        color: "green-text-gradient",
-      },
-      {
-        name: "PHP",
-        color: "pink-text-gradient",
-      },
-     
-    ],
-    image: unified,
-    // source_code_link: "asdasdsad",
-  },
-  {
-    name: "Attendance Kid",
-    description: "This project was created during my OJT in Unted Neon my role in this project is camera implementation and qr code generator",
-    tags: [
-      {
-        name: "ReactJS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "API",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react-bootstrap",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Material UI",
-        color: "green-text-gradient",
-      },
-     
-    ],
-    image: attendancekid,
-    // source_code_link: "asdasd",
-  },
+  // {
+  //   name: "LRMC",
+  //   description:
+  //     "This project was created during my OJT in Unted Neon my role in this project back end using firebase",
+  //   tags: [
+  //     {
+  //       name: "ReactJS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "API",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "react-bootstrap",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: lrmc,
+  //   // source_code_link: "",
+  // },
+  // {
+  //   name: "Unified",
+  //   description:
+  //     "This project was created during my OJT in Unted Neon my role in this project is map design and dashboard",
+  //   tags: [
+  //     {
+  //       name: "Code ignitor",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "laravel",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "PHP",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: unified,
+  //   // source_code_link: "asdasdsad",
+  // },
+  // {
+  //   name: "Attendance Kid",
+  //   description:
+  //     "This project was created during my OJT in Unted Neon my role in this project is camera implementation and qr code generator",
+  //   tags: [
+  //     {
+  //       name: "ReactJS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "API",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "react-bootstrap",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Material UI",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: attendancekid,
+  //   // source_code_link: "asdasd",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
