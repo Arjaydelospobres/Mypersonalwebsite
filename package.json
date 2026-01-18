@@ -15,11 +15,16 @@
     "framer-motion": "^9.0.7",
     "gh-pages": "^5.0.0",
     "maath": "^0.5.2",
+    "mdb-react-ui-kit": "^6.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-images": "^1.2.0-beta.7",
+    "react-modal-image": "^2.6.0",
+    "react-photo-gallery": "^8.0.0",
     "react-router-dom": "^6.8.1",
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
+    "sweetalert2": "^11.7.12",
     "three": "^0.149.0"
   },
   "devDependencies": {

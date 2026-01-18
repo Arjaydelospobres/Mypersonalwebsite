@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import ModalImage from "react-modal-image";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { testimonials } from "../constants";
+import { certificates } from "../constants";
 
 const FeedbackCard = ({
   index,
@@ -13,36 +13,26 @@ const FeedbackCard = ({
   designation,
   company,
   image,
-}) => (
-  <motion.div
-    variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
-  >
-    <img
-          src={image}
-          style={{height: "250px", width:"250px"}}
-      
-        />
+}) => {
+  return (
+    <motion.div
+      variants={fadeIn("", "spring", index * 0.5, 0.75)}
+      className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
+    >
+      <ModalImage
+        small={image}
+        large={image}
+        // style={{width:"300px"}}
+        // className="w-full h-60"
+        // imageBackgroundColor="green"
+      />
 
-    <div className='mt-1'>
-      <p className='text-white tracking-wider text-[18px]'>{testimonial}</p>
-
-      {/* <div className='mt-7 flex justify-between items-center gap-1'>
-        <div className='flex-1 flex flex-col'>
-          <p className='text-white font-medium text-[16px]'>
-            <span className='blue-text-gradient'>@</span> {name}
-          </p>
-          <p className='mt-1 text-secondary text-[12px]'>
-            {designation} of {company}
-          </p>
-        </div>
-
-       
-      </div> */}
-    </div>
-  </motion.div>
-);
-
+      <div className="mt-1">
+        <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
+      </div>
+    </motion.div>
+  );
+};
 const Feedbacks = () => {
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
@@ -51,11 +41,11 @@ const Feedbacks = () => {
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>Well come to my</p>
-          <h2 className={styles.sectionHeadText}>Gallery</h2>
+          <h2 className={styles.sectionHeadText}>Certificates</h2>
         </motion.div>
       </div>
-      <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
-        {testimonials.map((testimonial, index) => (
+      <div className={`${styles.padding} flex overflow-x-scroll gap-7`}>
+        {certificates.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
       </div>

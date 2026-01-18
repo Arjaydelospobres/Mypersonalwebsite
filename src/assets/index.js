@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import banner from "./banner.png";
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -22,6 +23,10 @@ import android from "./tech/androidstudio.png";
 
 import united from "./company/united.jpg";
 import phinma from "./company/phinma.jpg";
+import mgi from "./company/mgi.png";
+import kccateringlogo from "./company/kccatering.png";
+import financiallogo from "./company/financial.png";
+import employeelogo from "./company/employee.png";
 
 
 
@@ -50,4 +55,9 @@ export {
   typescript,
   firebase,
   android,
+  mgi,
+  kccateringlogo,
+  financiallogo,
+  employeelogo,
+  banner
 };
